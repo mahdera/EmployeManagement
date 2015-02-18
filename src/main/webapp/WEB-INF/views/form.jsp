@@ -18,8 +18,7 @@
 
 
 		<c:url var="userRegistration" value="saveUser.html" />
-		<form:form id="registerForm" modelAttribute="employee" method="post"
-			action="register">
+		<form:form id="registerForm" modelAttribute="employee" method="post" action="register">
 			<table width="400px" height="150px">
 				<tr>
 					<td><form:label path="firstName">First Name</form:label></td>
